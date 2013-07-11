@@ -16,11 +16,11 @@ namespace FirstHomework
         {
             
             Console.WriteLine("Check a point to continue: \n 0.Save information \n 2.Download information\n");
-            int a = Convert.ToInt32(Console.ReadLine());
+            var a = Convert.ToInt32(Console.ReadLine());
             switch (a) {
                 case 0:
-                    SaveClass saveClass = new SaveClass();
-                    saveClass.saveFile();
+                    var saveClass = new SaveClass();
+                    saveClass.SaveFile();
                     Console.ReadKey();
                     break;
                 case 1:

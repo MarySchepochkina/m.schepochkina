@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstHomework", "FirstHomework\FirstHomework.csproj", "{4D08C3AE-A4F4-406F-9C9A-5A50CE33FF3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resourses", "resourses", "{24D03622-7D1F-42AF-AA76-FC44443FB80C}"
+	ProjectSection(SolutionItems) = preProject
+		XMLFile1.xml = XMLFile1.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{053CCAF8-9668-4C19-9F2F-E4AF150BE49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,10 @@ Global
 		{4D08C3AE-A4F4-406F-9C9A-5A50CE33FF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D08C3AE-A4F4-406F-9C9A-5A50CE33FF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D08C3AE-A4F4-406F-9C9A-5A50CE33FF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053CCAF8-9668-4C19-9F2F-E4AF150BE49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053CCAF8-9668-4C19-9F2F-E4AF150BE49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053CCAF8-9668-4C19-9F2F-E4AF150BE49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053CCAF8-9668-4C19-9F2F-E4AF150BE49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

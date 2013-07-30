@@ -42,10 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DownloadClass.cs" />
+    <Compile Include="DownloadLinqToXml.cs" />
+    <Compile Include="DownloadStream.cs" />
+    <Compile Include="GetInformation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SaveClass.cs" />
+    <Compile Include="SaveLinqXml.cs" />
+    <Compile Include="SaveStream.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
